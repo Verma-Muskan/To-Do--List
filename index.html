@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+  <div class="container">
+    <h1>My Project Tasks</h1>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Add new task...">
+      <select id="prioritySelect">
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <input type="date" id="deadlineInput">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
